@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Barely.GoogleAnalyticsV4\Barely.GoogleAnalyticsV4.csproj" />
+    <ProjectReference Include="..\..\Barely.GoogleAnalyticsV4\Barely.GoogleAnalyticsV4.csproj" />
   </ItemGroup>
 
 </Project>

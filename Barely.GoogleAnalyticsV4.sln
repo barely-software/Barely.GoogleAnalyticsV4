@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barely.GoogleAnalyticsV4", "Barely.GoogleAnalyticsV4\Barely.GoogleAnalyticsV4.csproj", "{294D5CA5-DDDE-49D6-99FB-331A607F05D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Barely.GoogleAnalyticsV4", "Barely.GoogleAnalyticsV4\Barely.GoogleAnalyticsV4.csproj", "{294D5CA5-DDDE-49D6-99FB-331A607F05D7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{A476B892-B38C-4981-A0E5-89D31F0A2498}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleAnalyticsCLI", "GoogleAnalyticsCLI\GoogleAnalyticsCLI.csproj", "{EE5CE0F6-C300-4E41-B9CF-0FED58FF9422}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleAnalyticsCLI", "Examples\GoogleAnalyticsCLI\GoogleAnalyticsCLI.csproj", "{994D716C-FDB2-4B4F-90D3-652A0278B639}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,16 +19,16 @@ Global
 		{294D5CA5-DDDE-49D6-99FB-331A607F05D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{294D5CA5-DDDE-49D6-99FB-331A607F05D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{294D5CA5-DDDE-49D6-99FB-331A607F05D7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EE5CE0F6-C300-4E41-B9CF-0FED58FF9422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EE5CE0F6-C300-4E41-B9CF-0FED58FF9422}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EE5CE0F6-C300-4E41-B9CF-0FED58FF9422}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EE5CE0F6-C300-4E41-B9CF-0FED58FF9422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{994D716C-FDB2-4B4F-90D3-652A0278B639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{994D716C-FDB2-4B4F-90D3-652A0278B639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{994D716C-FDB2-4B4F-90D3-652A0278B639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{994D716C-FDB2-4B4F-90D3-652A0278B639}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{EE5CE0F6-C300-4E41-B9CF-0FED58FF9422} = {A476B892-B38C-4981-A0E5-89D31F0A2498}
+		{994D716C-FDB2-4B4F-90D3-652A0278B639} = {A476B892-B38C-4981-A0E5-89D31F0A2498}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2F9433F7-7A17-4050-91D6-6286054397EC}
