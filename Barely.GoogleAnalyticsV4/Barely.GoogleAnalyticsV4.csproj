@@ -2,6 +2,30 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Barely.GoogleAnalyticsV4</PackageId>
+    <Authors>Daniel Packard</Authors>
+    <Product>Barely.GoogleAnalyticsV4</Product>
+    <Company>Barely Software</Company>
+    <Description>A very basic wrapper for using Google Analytics Measurement Protocol in netstandard 2.0 (uwp, xamarin) projects</Description>
+    <Copyright>Barely Software 2020</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/barely-software/Barely.GoogleAnalyticsV4</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/barely-software/Barely.GoogleAnalyticsV4</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>google analytics, analytics, net standard 2.0, xamarin, uwp, google analytics measurement protocol, measurement protocol</PackageTags>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <PackageIcon>barely-software-logo.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\barely-software-logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
