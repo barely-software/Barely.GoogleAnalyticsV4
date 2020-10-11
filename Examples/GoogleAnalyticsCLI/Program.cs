@@ -28,8 +28,7 @@ namespace GoogleAnalyticsCLI
             Console.WriteLine("\nGoogle analytics client initialized: ");
             Console.WriteLine($"  tid: {tid}");
             Console.WriteLine($"  cid: {cid}");
-
-            Console.WriteLine("You are ready to rock!\n");
+            Console.WriteLine("You are ready to rock & roll!\n");
 
             await RunUserCommands();
         }
