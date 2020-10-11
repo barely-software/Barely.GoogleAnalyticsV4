@@ -3,7 +3,7 @@ A minimal wrapper for the Google Analytics Measurement Protocol supporting netst
 
 ## Minimal code:
 ```c#
-var ga = new GoogleAnalytics("UA-XXXXX-Y);
+var ga = new GoogleAnalytics("UA-XXXXX-Y");
 ga.SendPageView("/home", "example.com", "Home page");
 ga.SendEvent("category", "action", "label", "300");
 ```
